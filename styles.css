@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Mukta", serif;
+
+}
+ body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    
+    justify-content: space-around;
+ }
+    
+ .header{
+    position: fixed;
+    top: 0;
+    left: 0; 
+    display:flex;
+    align-items:center ;
+    
+    }
+
+.logo-header{
+    width:80px ;
+    height: 80px;
+    margin: 10px;
+
+
+}
+a{
+ color: black;
+ 
+ margin-left: 40px;
+ 
+font-weight:800;
+cursor: pointer;
+font-size: 25px;
+}
+
+a:hover, .active{ 
+    color: red;
+    transition: 0.5s ease-in-out;
+}
+    
+
+.img-logo{
+    height: 200px;
+}
+
+button{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+button:hover {
+   
+    color: red;
+    background-color: white;
+    transition: 0.5s ease-in-out ;
+}
+
+.mario-luigi{
+    height: 500px;
+}
+
+
+
+
+
+.principal{
+    width: 40%;
+}
+
+.video{
+    position: fixed;
+    z-index:-1;;
+    
+}
+video{
+    min-width: 100vw;
+    min-height: 100vh;
+    opacity: 0.7;
+}
+ 
+p{
+    color: black;
+    font-weight:900;
+    font-size: 18px;
+    
+} 
+
+.whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.formulario{
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -300px;    
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+input{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 5px;
+    outline-color: #18d80f ;
+
+}
+textarea{
+    height: 100px;
+    width: 270px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 5px;
+    outline-color: #18d80f ;
+}
+
+.mascara-formulario{
+    
+    position: fixed;
+    top: 0;
+    width: 100vw ;
+    height: 100vh;
+    visibility: hidden;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%) ;
+}
+
+/* top: 30%;
+    left: -300px;
+
+    final 
+    top:30%;
+    left:50%;
+    transform:translateX(-50);
+    
+    <div class="mascara-formulario"></div> 
+    */
+    
